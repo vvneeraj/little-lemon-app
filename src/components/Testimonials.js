@@ -30,7 +30,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="gutter">
+    <section className="testimonial-section gutter">
       <div>
         <span className="title title-center font-40">Testimonials</span>
       </div>

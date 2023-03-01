@@ -8,13 +8,13 @@ const Nav = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="#">Menu</a>
+            <Link to="/menu">Menu</Link>
           </li>
           <li>
-            <Link to="/reservations">Reservations</Link>
+            <Link to="/booking">Reservations</Link>
           </li>
           <li>
             <a href="#">Order Online</a>

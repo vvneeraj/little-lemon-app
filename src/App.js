@@ -7,6 +7,8 @@ import BookingPage from "./components/BookingPage";
 import BookingConfirmation from "./components/BookingConfirmation";
 import { useReducer, createContext } from "react";
 import Reservations from "./components/Reservations";
+import About from "./components/About";
+import Menu from "./components/Menu";
 
 export const BookingContext = createContext(null);
 export const BookingDispatcherContext = createContext(null);
@@ -73,6 +75,8 @@ function App() {
                 element={<BookingConfirmation />}
               />
               <Route path="/reservations" element={<Reservations />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/menu" element={<Menu />} />
             </Routes>
           </main>
           <Footer />

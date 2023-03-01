@@ -186,7 +186,6 @@ footer {
   color: #edefee;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  margin-top: 2rem;
 }
 
 footer ul {
@@ -240,6 +239,7 @@ label {
   grid-template-columns: 50%;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .booking-confirmation {
@@ -250,8 +250,22 @@ label {
   align-items: center;
 }
 
+.booking-page>article>div>span{
+  margin-bottom: 2rem;
+}
+
 .title-center {
   text-align: center;
+}
+
+.testimonial-section {
+  background-color: #edefee;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.testimonial-section>div>span{
+  padding-bottom: 2rem;
 }
 
 .testimonials {
@@ -270,6 +284,8 @@ label {
     "rating rating"
     "image description";
   padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
 }
 .rating {
   grid-area: rating;
@@ -287,12 +303,20 @@ label {
   border-radius: 1rem;
 }
 
-.reservation-card{
+.reservation-card {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #edefee;
   padding: 1rem;
   margin-bottom: 1rem;
+}
+
+.common-page{
+  margin-bottom: 3rem;
+}
+
+.menu{
+  width: 100%;
 }
 
 @media (max-width: 900px) {
